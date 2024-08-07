@@ -56,4 +56,3 @@ require("notify")("hello guy", "info", {
 
 vim.opt.confirm = true
 require("config.lualine")
-vim.cmd("PrtProvider gemini")
