@@ -4,6 +4,7 @@ return {
 		tag = "v0.3.10",
 		dependencies = { "ibhagwan/fzf-lua", "nvim-lua/plenary.nvim" },
 		--config = function()
+		        --vim.cmd("PrtProvider gemini")
 			--require("parrot").setup({
 				--providers = {
 					--pplx = {
