@@ -50,7 +50,7 @@ config.setup({
 	highlight = { enable = true },
 	indent = { enable = true },
 })
-require("notify")("hello guy", "info", {
+require("notify")("change this welcome message in ~/.config/nvim/init.lua)", "info", {
   title=" welcome"
 })
 
