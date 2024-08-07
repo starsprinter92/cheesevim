@@ -5,23 +5,14 @@ return {
 		dependencies = { "ibhagwan/fzf-lua", "nvim-lua/plenary.nvim" },
 		config = function()
 			require("parrot").setup({
-				providers = {
-					pplx = {
-						api_key = os.getenv("PERPLEXITY_API_KEY"),
-					},
-					openai = {
-						api_key = os.getenv("OPENAI_API_KEY"),
-					},
-					anthropic = {
-						api_key = os.getenv("ANTHROPIC_API_KEY"),
-					},
-					mistral = {
-						api_key = os.getenv("MISTRAL_API_KEY"),
-					},
-					gemini = {
-						api_key = "AIzaSyC3NU12mYrAy48bMdfdYAe1VvQnXZIbmJA",
-					},
-					ollama = {}, -- provide an empty list to make provider available
+				providers = 
+					--openai = {
+						--api_key = os.getenv("OPENAI_API_KEY"),
+					--},
+					--gemini = {
+						--api_key = os.getenv("GEMINI_API_KEY"),
+					--},
+					--ollama = {}, -- provide an empty list to make provider available
 				},
 			})
 		end,
