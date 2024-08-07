@@ -1,6 +1,8 @@
 # gvim
 a neovim distribution based on lazy.nvim
 
+![gvim](https://github.com/user-attachments/assets/f53bacdb-b026-4ed0-bdf4-eecb477e22a2)
+
 # install
 backup your neovim config:
 ```
