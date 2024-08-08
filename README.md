@@ -20,7 +20,7 @@ mv ~/.cache/nvim{,.bak}
 
 install configs:
 ``` 
-git clone https://github.com/starsprinter92/gvim ~/.config/nvim
+git clone https://github.com/starsprinter92/firevim ~/.config/nvim
 ```
 remove .git for your repository later:
 ```
