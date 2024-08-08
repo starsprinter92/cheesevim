@@ -1,9 +1,8 @@
-# firevim
+# cheesevim
 a neovim distribution based on lazy.nvim
 
-not to be confused with firenvim, which is a neovim plugin that makes all textboxes nvim
 
-![firevim](https://github.com/user-attachments/assets/d933d0a0-98c6-43c5-84e9-cc1d8b5e0659)
+
 
 
 # install
@@ -20,7 +19,7 @@ mv ~/.cache/nvim{,.bak}
 
 install configs:
 ``` 
-git clone https://github.com/starsprinter92/firevim ~/.config/nvim
+git clone https://github.com/starsprinter92/cheesevim ~/.config/nvim
 ```
 remove .git for your repository later:
 ```
