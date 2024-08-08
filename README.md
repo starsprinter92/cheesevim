@@ -1,9 +1,9 @@
 # cheesevim
 a neovim distribution based on lazy.nvim
 
+also known as cvim
 
-
-
+![cheesevim](https://github.com/user-attachments/assets/41642930-9ccc-41b5-bfeb-5370e762ef61)
 
 # install
 backup your neovim config:
