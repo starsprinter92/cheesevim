@@ -44,15 +44,27 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>", {})
 vim.keymap.set("n", "<C-t>", ":tabnew<CR>", {})
 
-local config = require("nvim-treesitter.configs")
+local config = require("nvim-treesitter")
 
 config.setup({
 	ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
 	highlight = { enable = true },
 	indent = { enable = true },
 })
-require("notify")("hello guy", "info", {
+require("notify")("Welcome, Cola", "info", {
   title=" welcome"
 })
+
+-- Enable persistent undo
+vim.opt.undofile = true
+
+-- Set a custom directory for undo files (optional, defaults to XDG state home)
+local undodir = vim.fn.stdpath("state") .. "/undo"
+if vim.fn.isdirectory(undodir) == 0 then
+  vim.fn.mkdir(undodir, "p")
+end
+vim.opt.undodir = undodir
+
+
 
 vim.opt.confirm = true
